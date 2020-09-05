@@ -869,5 +869,5 @@ bot.on("message", message => {
 
  
 //////============token================////
-bot.login("NzQzMTAxODg4NjU1Nzg2MDA1.XzPxkA.HeaMgZ4ifQk7JhGqUs7cfm55EO8");
+bot.login("NzQzMTAxODg4NjU1Nzg2MDA1.XzPxkA.TqzvCWnHxPOGjCzWh9eQzXiYEsQ");
 //by Aro
