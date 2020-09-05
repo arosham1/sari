@@ -30,18 +30,23 @@ bot.on('message', message => {
     .setImage("https://cdn.discordapp.com/avatars/735954747076378814/e635a56a7eb88955ce276473f938fa6e.png?size=1024")
     .setColor("#000000")
 .setDescription(` **COMAND HELP MENU**
-< The prefix for the bot is: s! >
-+antibots on
-+antibots off
+< The prefix for the bot is:+ >
 +anti ban {Number}
 +anti kick {Number}
 +anti roleC {Number}
 +anti roleD {Number}
 +anti channelC {Number}
 +anti channelD {Number}
++antibots on
++antibots off
 +anti time
 +invite
-*about
++about
++lock
++unlock
+everyone Automud delete
+here Automud delete
+
 **[support](https://discord.gg/3MMFZRp)**  -  **[invite](https://discord.com/api/oauth2/authorize?client_id=735954747076378814&permissions=8&scope=bot)**  
 `)
  
@@ -63,14 +68,8 @@ bot.on('message', message => {
      .addField('``Users``' ,`[ ${bot.users.size} ]` , true)
      .addField('``Name Bot``' , `[ ${bot.user.tag} ]` , true)
      .addField('``iD Bot``' , `[ ${bot.user.id} ]` , true)
-           .addField('``My Prefix``' , `${prefix}` , true)
-     .addField('``My Language``' , `[ Java Script ]` , true)
-    
-    
-    
-    
-    
-    
+     .addField('``My Prefix``' , `${prefix}` , true)
+      addField('``My Language ``' , `[ Java Script ]` , true)
     .setFooter('By | <! Cg》 AR0#0001>')
     
     
@@ -83,6 +82,11 @@ bot.on('message', message => {
     
   }
   });
+
+
+
+
+
 
 
 ///////////
