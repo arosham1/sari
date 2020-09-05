@@ -29,7 +29,7 @@ bot.on('message', message => {
      .setThumbnail("https://cdn.discordapp.com/avatars/735954747076378814/e635a56a7eb88955ce276473f938fa6e.png?size=1024")
     .setImage("https://cdn.discordapp.com/avatars/735954747076378814/e635a56a7eb88955ce276473f938fa6e.png?size=1024")
     .setColor("#000000")
-.setDescription(` **COMAND HELP MENU**
+.setDescription(`**COMAND HELP MENU**`)
 < The prefix for the bot is:+ >
 +anti ban {Number}
 +anti kick {Number}
