@@ -83,6 +83,61 @@ bot.on('message', message => {
   }
   });
 
+//////////
+
+
+bot.on('message', message => {
+
+if(message.content.includes("@everyone")){
+if(!message.member.hasPermission('MANAGE_MESSAGES')){
+message.delete(); 
+message.reply("You no everyone server sory")
+}
+
+}
+
+});
+
+
+bot.on('message', message => {
+
+if(message.content.includes("@everyone@everyone")){
+if(!message.member.hasPermission('MANAGE_MESSAGES')){
+message.delete(); 
+message.reply("You no everyone server sory")
+}
+
+}
+
+});
+
+
+
+//////////here//
+bot.on('message', message => {
+
+if(message.content.includes("@here")){
+if(!message.member.hasPermission('MANAGE_MESSAGES')){
+message.delete(); 
+message.reply("You no here server sory")
+}
+
+}
+
+});
+
+bot.on('message', message => {
+
+if(message.content.includes("@here@here")){
+if(!message.member.hasPermission('MANAGE_MESSAGES')){
+message.delete(); 
+message.reply("You no here server sory")
+}
+
+}
+
+});
+
 
 
 
